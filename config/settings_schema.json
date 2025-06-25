@@ -109,11 +109,21 @@
         "content": "t:settings_schema.typography.settings.header__1.content"
       },
       {
-        "type": "font_picker",
+        "type": "select",
         "id": "type_header_font",
-        "default": "assistant_n4",
-        "label": "t:settings_schema.typography.settings.type_header_font.label"
-      },
+        "label": "Font",
+        "options": [
+            {
+              "value": "dharma-gothic-e",
+              "label": "Dharma Gothic E"
+            },
+            {
+              "value": "custom-font-2",
+              "label": "Brand Font 2"
+            }
+        ],
+          "default": "dharma-gothic-e"
+        },
       {
         "type": "range",
         "id": "heading_scale",
