@@ -355,6 +355,14 @@ h6,
   margin-block-end: 1.67em;
 }
 
+.dharma-gothic-e {
+    font-family: 'dharma-gothic-e', sans-serif;
+}
+
+.filson-soft {
+    font-family: 'filson-soft', sans-serif;
+}
+
 blockquote {
   font-style: italic;
   color: rgba(var(--color-foreground), 0.75);

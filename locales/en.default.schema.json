@@ -411,6 +411,15 @@
           "label": "Extra extra large"
         }
       },
+      "heading_font": {
+        "label": "Heading font",
+        "options__1": {
+          "label": "Dharma Gothic E"
+        },
+        "options__2": {
+          "label": "Filson Soft"
+        },
+      },
       "image_shape": {
         "options__1": {
           "label": "Default"

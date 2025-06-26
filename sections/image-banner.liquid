@@ -121,7 +121,7 @@
         {%- case block.type -%}
           {%- when 'heading' -%}
             <h2
-              class="banner__heading inline-richtext {{ block.settings.heading_size }}"
+              class="banner__heading inline-richtext {{ block.settings.heading_size }} {{ block.settings.heading_font }}"
               {{ block.shopify_attributes }}
             >
               {{ block.settings.heading }}
@@ -399,6 +399,22 @@
           ],
           "default": "h1",
           "label": "t:sections.all.heading_size.label"
+        },
+        {
+          "type": "select",
+          "id": "heading_font",
+          "options": [
+            {
+              "value": "dharma-gothic-e",
+              "label": "t:sections.all.heading_font.options__1.label"
+            },
+            {
+              "value": "filson-soft",
+              "label": "t:sections.all.heading_font.options__2.label"
+            },
+          ],
+          "default": "dharma-gothic-e",
+          "label": "t:sections.all.heading_font.label"
         }
       ]
     },
